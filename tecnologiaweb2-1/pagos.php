@@ -102,6 +102,9 @@ $membresias = $pdo->query("SELECT id, nombre FROM membresias")->fetchAll(PDO::FE
     </style>
 </head>
 <body>
+    <!-- Menú de navegación -->
+  <?php require_once 'menu.php'; ?>
+  
 <div class="container mt-5">
     <h1 class="text-center">Gestión de Pagos</h1>
     

@@ -93,6 +93,9 @@
     </style>
 </head>
 <body>
+    <!-- Menú de navegación -->
+  <?php require_once 'menu.php'; ?>
+  
 <div class="container mt-5">
     <h2 class="text-center">CONTACTOS</h2>
 
