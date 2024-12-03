@@ -1,4 +1,5 @@
 <?php
+echo "Bienvenido a Gym Salud y Vida";
 require_once 'conexion.php';
 session_start(); // Iniciar sesión
 
